@@ -1,0 +1,53 @@
+/* Add or modify the following styles in AdminPage.css */
+body{
+    padding-bottom: 100px;
+    margin-top: 200px;
+}
+@media (max-width: 780px) {
+    body{
+      margin-top: 300px;
+    }
+  }
+.bod1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20em;
+    background: #ffffff;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Center align the form */
+  .EventForm {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Adjust the styles for the list */
+  .EventList {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  .box2{
+    margin-top: 100px;
+    width:90%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .txtar{
+    height: 10em;
+  }

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Diphylleia&family=Teko&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    max-width: 100px; /* Adjust the logo width as needed */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-buttons .nav-button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .logo{
+    height: 3em;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(253, 93, 1);
+    font-size: 18px;
+  }
+
+  h1{
+    color: rgb(230, 78, 7);
+    font-size: 60px;
+    margin-left: 2em;
+    font-family: 'ADLaM Display', cursive;
+    font-family: 'Diphylleia', serif;
+    font-family: 'Teko', sans-serif;
+  }
+  .insta{
+    font-size: 28px;
+  }
+  @media (max-width: 780px) {
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h1{
+      margin-left: 0;
+    }
+  }
+
+  
